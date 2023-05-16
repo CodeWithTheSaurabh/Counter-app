@@ -17,8 +17,8 @@ dnrc.addEventListener("click", () => {
 // for increment button click
 inrc.addEventListener("click", () => {
   const value = Number(screen.innerText);
-  if (value >= 100) {
-    alert("10+ values are not allowed");
+  if (value >= 99) {
+    alert("99+ values are not allowed");
   } else {
     screen.innerText = value + 1;
   }
